@@ -4,31 +4,76 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio Felipe Pelegrini</title>
-        <!-- Fontes do google fonts -->
+        <!--Fontes do google fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <!-- devincon.dev fontes -->
+        <!--Devincon.dev fontes -->
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-        <!-- Css do projeto-->
+        <!--Css do projeto-->
         <link rel="stylesheet" href="css/styles.css">
+        <!--Icone do cabeçario-->
+        <link rel="shortcut icon" href="img/favicon.png" type="image-scale/x-icon"/>
     </head>
     <body>
         <main id="container">
+            <!--pagina lateral a esquerda com foto contato e redes sociais -->
             <aside id="bio-container">
                 <h2>Felipe Pelegrini</h2>
-                <img src="img/foto portfolio.png" alt="foto de perfil Felipe">
-                <p>Olá eu sou o Felipe pelegrini e sou <span class="highlight"> Estudante de desenvolvimento web. </p>
+                <img id="bio-img" src="img/foto portfolio.png" alt="foto de perfil Felipe">
+                <p>Olá me chamo Felipe pelegrini e sou <span class="highlight"> Estudante de desenvolvimento web. </p>
                 <p id="welcome-text">Seja bem-vindo!</p>
-                <ul> <!-- Icones de redes sociais-->
+                <ul id="social-container"> <!-- Icones de redes sociais-->
                     <li><a href="https://www.linkedin.com/in/felipe-pelegrini-b65698223/" target="_blank"><i class="devicon-linkedin-plain colored"></i></a></li>
                     <li><a href="https://github.com/felegrine" target="_blank"><i class="devicon-github-original colored"></i></i></a></li>
                 </ul>
-                <div id="mail-container">
-                    <img src="img/iconemail.png" alt="">
+                <div id="email-container">
+                    <img id="gmail-img" src="img/iconemail.png" alt="icone do gmail">
                     <a href="mailto:pelegrini.felipesantos@gmail.com">pelegrini.felipesantos@gmail.com</a>
                 </div>
             </aside>
             <section id="about-container">
-                
+                <h1 id="name">Felipe Pelegrini</h1>
+                <p id ="title"><span class="highlight">Estudante de Web Development</span></p>
+                <p class="description">Atualmente estudando no cusrso de Bacharel em Tecnologia da Informação na Universisdade Virtual do Estado de São Paulo (Univesp)</p>
+                <p class="description">Meus estudos estão focados no desenvolvimento de sites e aplicações Web com foco em atingir full stack</p>
+                <a href="#" id="btn-projects"><span>Ver projetos</span></a>
+                <p class="description">Tecnologias que domino:</p>
+                <div id="skills-container">
+                    <div class="skills-box">
+                        <p class="skills-title"></p>
+                        <p class="skills-box">Front-end</p>
+                        <i class="devicon-html5-plain colored"></i>                        
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title"></p>
+                        <p class="skills-box">Back-end</p>
+                        <i class="devicon-php-plain colored"></i>                        
+                        <i class="devicon-python-plain colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title"></p>
+                        <p class="skills-box">Database</p>
+                        <!-- <i class="devicon-mysql-plain colored"></i>                         -->
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title"></p>
+                        <p class="skills-box">Front-end Frameworks</p>
+                        <!-- <i class="devicon-vuejs-plain colored"></i>                         -->
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title"></p>
+                        <p class="skills-box">Back-end Frameworks</p>
+                        <!-- <i class="devicon-laravel-plain colored"></i>                         -->
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title"></p>
+                        <p class="skills-box">Tools</p>
+                        <i class="devicon-linux-plain colored"></i>
+                        <i class="devicon-vscode-plain colored"></i>
+                        <i class="devicon-windows11-original-wordmark colored"></i>          
+                    </div>
+                </div>
             </section>
         </main>
 
