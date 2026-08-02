@@ -19,8 +19,8 @@
             </aside>
             <section id="about-container">
                 <h1 id="name">Felipe Pelegrini</h1>
-                <p id ="title"><span class="highlight">Bacharel de Tecnologia da Informação</span></p>
-                <p class="description">Atualmente estudando no curso de Bacharel em Tecnologia da Informação na Universisdade Virtual do Estado de São Paulo (Univesp)</p>
+                <p id ="title"><span class="highlight">Estudante de Web Development</span></p>
+                <p class="description">Atualmente estudando no cusrso de Bacharel em Tecnologia da Informação na Universisdade Virtual do Estado de São Paulo (Univesp)</p>
                 <p class="description">Meus estudos estão focados no desenvolvimento de sites e aplicações Web com foco em atingir full stack</p>
                 <div class="btn-nave">
                     <a href="projetos.php" id="btn-projects"><span>História</span></a>
