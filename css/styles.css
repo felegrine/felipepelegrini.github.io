@@ -43,9 +43,11 @@
     height: 100%;
     background-color: var(--about-bg-color);
     padding: 50px;
-
 }
-
+.btn-nave{
+    display: flex;
+    gap: 10px;
+}
 /* Bio container */
 #bio-container h2{
     margin-bottom: 25px;
@@ -169,6 +171,14 @@
 .skills-box{
     font-size: 45px;
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.skills-box i{
+    padding: 10px;
+    font-size: 20px;
 }
 
 /* Mobile */
@@ -202,6 +212,7 @@
         max-width: 100%;
         line-height: 26px;
     }
+    
     #btn-projects{
         margin: 20px auto;
     }
@@ -211,9 +222,11 @@
         max-width: 100%;
         margin-bottom: 40px;
         text-align: left;
+        
     }
 
     .skills-box i{
-        font-size: 60px;
+        font-size: 30px;
+
     }
 }

@@ -1,25 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio Felipe Pelegrini</title>
-        <!--Fontes do google fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <!--Devincon.dev fontes -->
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-        <!--Css do projeto-->
-        <link rel="stylesheet" href="css/styles.css">
-        <!--Icone do cabeçario-->
-        <link rel="shortcut icon" href="img/favicon.png" type="image-scale/x-icon"/>
-    </head>
-    <body>
+<?php
+    include_once("templates/header.php");
+?>
         <main id="container">
             <!--pagina lateral a esquerda com foto contato e redes sociais -->
             <aside id="bio-container">
                 <h2>Felipe Pelegrini</h2>
                 <img id="bio-img" src="img/foto portfolio.png" alt="foto de perfil Felipe">
-                <p>Olá me chamo Felipe Pelegrini e sou <span class="highlight"> Estudante de desenvolvimento web. </p>
+                <p>Olá me chamo Felipe Pelegrini e sou <span class="highlight"> Desenvolvedor Web </p>
                 <p id="welcome-text">Seja bem-vindo!</p>
                 <ul id="social-container"> <!-- Icones de redes sociais-->
                     <li><a href="https://www.linkedin.com/in/felipe-pelegrini-b65698223/" target="_blank"><i class="devicon-linkedin-plain colored"></i></a></li>
@@ -32,27 +19,25 @@
             </aside>
             <section id="about-container">
                 <h1 id="name">Felipe Pelegrini</h1>
-                <p id ="title"><span class="highlight">Estudante de Web Development</span></p>
-                <p class="description">Atualmente estudando no cusrso de Bacharel em Tecnologia da Informação na Universisdade Virtual do Estado de São Paulo (Univesp)</p>
+                <p id ="title"><span class="highlight">Bacharel de Tecnologia da Informação</span></p>
+                <p class="description">Atualmente estudando no curso de Bacharel em Tecnologia da Informação na Universisdade Virtual do Estado de São Paulo (Univesp)</p>
                 <p class="description">Meus estudos estão focados no desenvolvimento de sites e aplicações Web com foco em atingir full stack</p>
-                <a href="#" id="btn-projects"><span>Ver projetos</span></a>
+                <div class="btn-nave">
+                    <a href="projetos.php" id="btn-projects"><span>História</span></a>
+                    <a href="projetos.php" id="btn-projects"><span>Ver projetos</span></a>
+                </div>
                 <h2 id="skills-section-title">Minhas Skills</h2>
-                <p class="description">Tecnologias que domino:</p>
                 <div id="skills-container">
                     <div class="skills-box">
                         <p class="skills-title">Front-end</p>
-                        <i class="devicon-html5-plain-wordmark colored"></i>
-                        <i class="devicon-css3-plain-wordmark colored"></i>
-                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-html5-plain-wordmark colored"> HTML</i>
+                        <i class="devicon-css3-plain-wordmark colored"> CSS</i>
+                        <i class="devicon-javascript-plain colored"> Java Script</i>
                     </div>
                     <div class="skills-box">
                         <p class="skills-title">Back-end</p>
-                        <i class="devicon-php-plain colored"></i>                        
-                        <i class="devicon-python-plain colored"></i>
-                    </div>
-                    <div class="skills-box">
-                        <p class="skills-title">Database</p>
-                        <!-- <i class="devicon-mysql-plain colored"></i>                         -->
+                        <i class="devicon-php-plain colored"> php</i>                        
+                        <i class="devicon-python-plain colored"> Python</i>
                     </div>
                     <div class="skills-box">
                         <p class="skills-title">Front-end Frameworks</p>
@@ -63,10 +48,16 @@
                         <!-- <i class="devicon-laravel-plain colored"></i>                         -->
                     </div>
                     <div class="skills-box">
+                        <p class="skills-title">Database</p>
+                        <i class="devicon-mysql-plain colored"> mysql</i>                        
+                    </div>
+                    <div class="skills-box">
                         <p class="skills-title">Tools</p>
-                        <!-- <i class="devicon-linux-plain colored"></i> -->
-                        <i class="devicon-vscode-plain colored"></i>
-                        <i class="devicon-windows11-original-wordmark colored"></i>          
+                        <i class="devicon-vscode-plain colored"> VS Code</i>
+                        <!-- <i class="devicon-linux-plain colored"> Linux</i> -->
+                        <i class="devicon-windows11-original-wordmark colored"> Windows</i>
+                        <i class="devicon-github-original"> GitHub</i>
+                        <i class="devicon-git-plain colored"> Git</i>
                     </div>
                 </div>
             </section>
