@@ -8,17 +8,23 @@
 
 /* Variaveis */
 :root{
-    --main-color: #54B689;
-    --main-text-color: #fff;
+    --main-color: #2563EB;
+    --main-text-color: #F8FAFC;
+    --secundary-text-color: #38BDF8;
     --border-color: #999;
-    --bio-bg-color: #293544;
+    --bio-bg-color: #111827;
     --bio-border-color: #293544;
-    --about-bg-color: #111821;
+    --about-bg-color: #0B1120;
 }
 
 /* General */
 .highlight{
     color: var(--main-color);
+}
+
+.highlight-text{
+    color: var(--secundary-text-color);
+    
 }
 
 /* Container */
@@ -56,10 +62,12 @@
 
 #bio-container p{
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 #bio-container #welcome-text{
     font-weight: bold;
+    font-size: 30px;
 }
 
 #bio-img{
@@ -85,8 +93,9 @@
 }
 
 #social-container li a {
-    color: var(--bio-bg-color);
-    font-size: 30px;
+    color: var(--main-text-color);
+    font-size: 40px;
+    text-decoration: none;
 }
 
 #email-container {
